@@ -26,8 +26,8 @@ import { GuestbookModule } from './guestbook/guestbook.module';
     RouterModule.forRoot([
       { path: 'welcome', component: WelcomeComponent },
       { path: 'about', component: AboutComponent },
-      { path: '', redirectTo:'welcome', pathMatch: 'full' },
-      { path: '**', redirectTo:'welcome', pathMatch: 'full' }
+      //{ path: '', redirectTo:'welcome', pathMatch: 'full' },
+      //{ path: '**', redirectTo:'welcome', pathMatch: 'full' }
     ]),
     PhotoModule,
     ProjectModule,
