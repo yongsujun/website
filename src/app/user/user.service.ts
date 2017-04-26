@@ -6,7 +6,8 @@ import {Observable} from 'rxjs/Observable';
 @Injectable()
 
 export class UserService {
-    private _userUrl = 'https://182.239.167.222:3000/api/users';
+    //private _userUrl = 'http://182.239.167.222:3000/api/users';
+    private _userUrl = 'http://localhost:3000/api/users';
     constructor(private _http: Http){ }
 
     getUsers(): Observable<IUser[]>{
